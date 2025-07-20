@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import {Button} from "@/components/ui/button";
-import RegisterForm from '@/components/shared/auth/Registerform';
+import RegisterForm from '@/components/shared/auth/RegisterForm';
 import Aside from '@/components/shared/auth/Aside';
 
 const RegisterPage = () => {
