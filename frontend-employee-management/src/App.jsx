@@ -7,6 +7,7 @@ import OverviewPage from "./pages/dashboard/overview/OverviewPage";
 import EditDepartmentPage from "./pages/dashboard/overview/EditDepartmentPage";
 import { Toaster } from "./components/ui/sonner";
 import PrivateRoute from "./lib/PrivateRoute";
+import TasksPage from "./components/shared/dashboard/tasks/TasksPage";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             </PrivateRoute>
           }
         />
+         <Route path="/Tasks" element={<TasksPage/>} />
       </Routes>
 
       <Toaster />
