@@ -1,11 +1,11 @@
 const { response, request } = require("express");
 
 //endpoint to get meploy list by department id 
-server.get("/api/employees/list/:id0", (request, response)=>{
+server.get("/api/employees/list/:id", (request, response)=>{
 const departmentsId = parseInt(request.params.id);
 const departmentsData = router.db.get("departments").value();
 const department = departmentsData.find(
-    (depts) => depts.id === departmentId
+    (depts) => depts.id === departmentsId
 );
 
 if(!department){
