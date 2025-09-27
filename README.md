@@ -2,7 +2,6 @@
 
 Workforce is a full-stack application designed for managing employees and tasks in a company. The platform allows for the management of users, tasks, and roles, providing an organized and efficient system for managers and teams.
 
-🔗 Live Demo
 
 ✨ Key Features
 
@@ -35,3 +34,4 @@ employee and task management with different roles
 modern and functional user interface
 
 integration with PostgreSQL database for storing and processing real data.
+🔗 [Live Demo](https://workforce-pro-phi.vercel.app)
